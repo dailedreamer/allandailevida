@@ -1,15 +1,11 @@
 <template>
-  <div id="app">
-  </div>
+  <router-view />
 </template>
-
+<script>
+export default {
+  name: "App"
+};
+</script>
 <style lang="scss">
-* {
-  padding: 0;
-  margin: 0;
-  max-width: 100%;
-  overflow-x: hidden;
-  position: relative;
-  display: block;
-}
+@import "assets/sass/imports/fonts";
 </style>
