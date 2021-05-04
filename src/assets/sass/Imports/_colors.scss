@@ -1,10 +1,11 @@
+//PRIMARY COLOR
 $red:#A30B1A;
-$gray:#F2F3F7;
-$dark-gray:#e1e3ea;
-$black:#555656;
+$gray: #EFEFEF;
+$dark-gray:#eae1e1;
+$black:#555555;
 $prime:#e84656;
+$white: #ffffff;
 
-$gray__backdrop:rgba(97,97,97,0.8);
 
 //COMPONENTS
 $light-red : #e24857;
@@ -22,12 +23,6 @@ $light-blue : rgb(58, 186, 245);
 $pink : #dd7474;
 $light-pink : #eca3a3;
 
-// TEMPLATE LAYOUT
-$menu__divider:#e4e4e4;
-$active__menu:#e4c2c5;
-$container:#eef2f3;
-
-
 
 
 $primary : linear-gradient($light-red, #e04151);
@@ -40,7 +35,6 @@ $success : linear-gradient($green, #309051);
 $success-hover :linear-gradient($light-green,#309051);
 $success-animate-border : $light-green, #ceffdd;
 $success-disabled :linear-gradient(#7af181,#82f17a);
-
 
 $warning : linear-gradient($orange, #e29c06);
 $warning-hover :linear-gradient($light-orange,#d19526);

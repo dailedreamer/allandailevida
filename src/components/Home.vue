@@ -1,7 +1,10 @@
 <template>
   <div class="home">
-    <h2>Hi, I'm Daile</h2>
-    <h1>Web Developer</h1>
+    <div  class="details details--location">
+      <h2 class="details__h2">Hi, I'm Daile</h2>
+      <h1 class="details__h1">Web Developer</h1>
+    </div>
+
   </div>
 </template>
 
