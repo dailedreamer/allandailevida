@@ -1,11 +1,20 @@
 <template>
   <div class="home">
-    <div>
-      <img src="" alt="">
+    <div class="navbar">
+      <img src="../assets/PersonalDetails/DaileDreamerlogo.png" alt="logo">
 
-      <ul class="nav-menu">
-        <li class="nav-a">
+      <ul class="navbar-menu">
+        <li class="navbar-a">
           Home
+        </li>
+        <li class="navbar-a">
+          About
+        </li>
+        <li class="navbar-a">
+          Project
+        </li>
+        <li class="navbar-a">
+          Reach me
         </li>
    
       </ul>
@@ -20,6 +29,10 @@
     <div  class="details details--location">
       <h2 class="details__h2">Hi, I'm Daile</h2>
       <h1 class="details__h1">Web Developer</h1>
+    </div>
+
+    <div class="button-contact">
+      <a href="">Let's do this</a>
     </div>
 
   </div>
