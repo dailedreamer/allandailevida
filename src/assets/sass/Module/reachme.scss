@@ -1,0 +1,135 @@
+@import "../Imports/general";
+
+.reachme
+{
+    background-color: $white;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+    
+    &:before, &:after
+    {
+      content: '';
+      background: inherit;
+      display: block;
+      position: absolute;
+      height: 100%;
+      left: 0;
+      right: 0;
+      top: 0;
+      z-index: -1;
+      transform: skewY(5deg);
+      transform-origin: 100% 0;
+    }
+
+    .nav__reach-me
+    {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        
+        .lbl__reach-me
+        {
+            padding-left: 100px; 
+            font-size: 50px;
+            font-weight: 800;
+            color: $black;
+            border-bottom: 5px solid  $red;
+
+        }
+    }
+
+   
+}
+
+.reach-me__content 
+{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    .reach-me__details
+    {
+        float: left;
+        width: 50%;
+
+        .main-content
+        {
+           margin-bottom: 100px; 
+           font-size: 25px;
+           text-align: justify;
+           text-justify: inter-word;
+        }
+
+        .sub-content
+        {
+            margin-bottom: 10px;
+            font-size: 25px;
+        }
+        
+
+        img
+        {
+            height: 100px;
+            width: 110px;
+            padding: 15px;
+        }
+    }
+
+    .reach-me__mail
+    {
+        float: right;
+        width: 50%;
+        font-size: 20px;
+        padding-left: 100px;
+
+        .input-design
+        {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid $black;
+            border-radius: 15px;
+            box-sizing: border-box;
+        }
+
+        .textarea--enlarge
+        {
+            height: 100px;
+        }
+
+        button
+        {
+            cursor: pointer;
+            color: $white;
+            background-color: $red;
+            padding: 5px 35px 5px 35px;
+            border-radius: 15px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        button:hover
+        {
+            color: $white;
+            background-color: $black;
+        }
+    }
+}
+
+footer
+{
+    
+    label
+    {
+        width: 100%;
+        background-color: $dark-gray;
+        padding: 25px 100px 25px 100px;
+        font-size: 18px;
+        display: block;
+        bottom: 0;
+        position: absolute;
+        border-top: $black 1px solid;
+    }
+}
