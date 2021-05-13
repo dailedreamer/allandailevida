@@ -10,10 +10,16 @@
       <div class="reach-me__details">
         <p class="main-content">Hello everyone, feel free to reach me out if you have any questions about Development. You can also send messages about how you feel on my designs and that would help me a lot on improving them.</p>
         <p class="sub-content">Follow my social journey and stay connected</p>
-        <img src="../assets/PersonalDetails/LinkedIn.png" alt="LinkedIn">
-        <img src="../assets/PersonalDetails/GitHub.png" alt="GitHub">
-        <img src="../assets/PersonalDetails/gmail.png" alt="Gmail">
-      </div>
+
+        <div class="social-media">
+          <img class="img-social-media-person" src="../assets/PersonalDetails/PersonSocialMedia.png" alt="LinkedIn">
+         </div>
+          <a href=""><img class="img-social-media LinkedIn" src="../assets/PersonalDetails/LinkedIn.png" alt="LinkedIn"></a>
+          <a href=""><img class="img-social-media" src="../assets/PersonalDetails/GitHub.png" alt="GitHub"></a>
+          <a href=""><img class="img-social-media" src="../assets/PersonalDetails/gmail.png" alt="Gmail"></a>
+        
+
+    </div>
 
       <div class="reach-me__mail">
           <label for="">Name :</label>
@@ -22,7 +28,10 @@
           <input  class="input-design" type="text" placeholder="example@domain.com">
           <label for="">Message :</label>
           <textarea  class="input-design textarea--enlarge" type="text" placeholder="Hi, Your is cool"/>
-          <button type="button">Send</button>
+          <div class="button-send">
+            <a href="">Send</a>
+          </div>
+
       </div>
 
     </div>
