@@ -17,21 +17,21 @@
           <a href=""><img class="img-social-media LinkedIn" src="../assets/PersonalDetails/LinkedIn.png" alt="LinkedIn"></a>
           <a href=""><img class="img-social-media" src="../assets/PersonalDetails/GitHub.png" alt="GitHub"></a>
           <a href=""><img class="img-social-media" src="../assets/PersonalDetails/gmail.png" alt="Gmail"></a>
-        
-
-    </div>
+      </div>
 
       <div class="reach-me__mail">
+          <h3><img class="img-ContactImage" src="../assets/PersonalDetails/MailHand.svg" alt="ContactImage"/>
+          Please leave a Message</h3>
+          <br>
           <label for="">Name :</label>
           <input  class="input-design" type="text" placeholder="First name & Last name">
           <label for="">Email :</label>
           <input  class="input-design" type="text" placeholder="example@domain.com">
           <label for="">Message :</label>
-          <textarea  class="input-design textarea--enlarge" type="text" placeholder="Hi, Your is cool"/>
+          <textarea  class="input-design textarea--enlarge" type="text" placeholder="Hi, Your work is cool"/>
           <div class="button-send">
             <a href="">Send</a>
           </div>
-
       </div>
 
     </div>

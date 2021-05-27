@@ -26,7 +26,7 @@
     .nav__reach-me
     {
         padding-top: 50px;
-        padding-bottom: 100px;
+        padding-bottom: 70px;
         padding-left: 100px; 
         
         .lbl__reach-me
@@ -122,7 +122,19 @@
         float: right;
         width: 50%;
         font-size: 20px;
-        padding-left: 100px;
+        padding: 150px;
+        padding-top: 0;
+           
+        h3
+        {
+            justify-content: center;
+        }
+
+        .img-ContactImage
+        {
+            height: 70px;
+            margin-left: 0;
+        }
 
         .input-design
         {
@@ -138,6 +150,17 @@
         .textarea--enlarge
         {
             height: 100px;
+        }
+
+        input:focus, textarea:focus
+        {
+            outline: none;
+            margin: 8px 0;
+            display: inline-block;
+            border: 2px solid $red;
+            border-radius: 15px;
+            box-sizing: border-box;
+            transition: width 2s linear 1s;
         }
 
         .button-send
@@ -163,6 +186,7 @@
 
     }
 
+
 }
 
 
@@ -179,7 +203,7 @@ footer
         display: block;
         bottom: 0;
         position: absolute;
-        border-top: $black 1px solid;
+        // border-top: $black 1px solid;
     }
 }
 
