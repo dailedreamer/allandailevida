@@ -50,9 +50,28 @@
     .project-system__details
     {
         float: left;
-        width: 40%;
+        width: 50%;
         padding: 0 30px 0 30px;
         text-align: center;
+        transition: 1s ease-in-out;
+
+        .header-tag__title
+        {
+            font-size: 45px;
+            padding-bottom: 50px;
+            padding-top: 20px;
+            transition: 1s ease-in-out;
+        }
+
+        .header-tag__details
+        {
+            font-size: 25px;
+            text-align: justify;
+            height: 370px;
+            padding: 0 120px 0 120px ;
+            text-indent: 2em;
+            transition: 1s ease-in-out;
+        }
 
         .project--listButton
         {
@@ -63,7 +82,6 @@
             
             .btn-Project--viewDetails
             {
-                
                 margin: 5px;
                 background-color: $red;
                 padding: 10px 35px 10px 35px;
@@ -71,46 +89,48 @@
                 color: white;
                 border-radius: 30px;
                 text-decoration: none;
-            
-
-                :hover
-                {
-                    background-color: $black;
-                }
-
                 img
                 {
                     color: white;
                     background-color: white;
                 }
-                
-            }
-
-            .btn-Project--viewSide
-            {
-               
-                    margin: 5px;
-                    background-color: $red;
-                    padding: 10px 20px 10px 20px;
-                    font-size: 20px;
-                    color: white;
-                    border-radius: 30px;
-                    text-decoration: none;
-                    margin: 5px;
-             
-                :hover
+            }:hover
                 {
                     background-color: $black;
                 }
-            }
+  
+            .btn-Project--viewSide
+            {
+                margin: 5px;
+                background-color: $red;
+                padding: 10px 20px 10px 20px;
+                font-size: 20px;
+                color: white;
+                border-radius: 30px;
+                text-decoration: none;
+                margin: 5px;
+            }:hover
+                {
+                    background-color: $black;
+                }
         }
+    }
+
+    #project-system__details
+    {
+        transition: all 1s ease; 
+    }
+
+    #project-system__details.ease
+    {
+        transition: all 1s ease; 
     }
 
     
     .project-system__image
     {
         float: right;
-        width: 60%;
+        width: 50%;
         padding: 0 30px 0 30px;
         text-align: center;
     }
