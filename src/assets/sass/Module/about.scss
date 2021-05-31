@@ -2,10 +2,75 @@
 
 .about
 {
-    background-color: $white;
-    height: 100vh;
+    background-color: $gray;
+    height: 120vh;
     width: 100vw;
     position: relative;
 
-    
+    .about-main
+    {
+        border-radius: 40% 40% 0 0;
+        background-color: $white;
+        height: 120vh;
+        width: 100vw;
+
+    }
+ 
+    .nav__about-me
+    {
+        text-align: center;
+        padding-top: 100px;
+        
+        .lbl__about-me
+        {
+            
+            font-size: 50px;
+            font-weight: 800;
+            color: $black;
+            border-bottom: 5px solid  $red;
+
+        }
+    }
+
+   
+}
+
+.about-me__main
+{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+
+    .about-me__img
+    {
+        float: left;
+        width: 50%;
+        padding: 0 150px 0 200px;
+        text-align: center;
+
+        img
+        {
+           border-radius: 50%;
+           height: 350px;
+        }
+    }
+
+    .about-me__details
+    {
+        float: right;
+        width: 50%;
+        text-align: justify;
+        padding: 0 200px 0 0;
+        font-size: 0.7em;
+        .presonal-details
+        {
+            padding-bottom: 50px;
+        }
+        
+        .organization-details
+        {
+            padding-bottom: 30px;
+        }
+    }
 }
