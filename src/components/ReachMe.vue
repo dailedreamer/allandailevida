@@ -33,12 +33,12 @@
             <a href="">Send</a>
           </div>
       </div>
-
+      
     </div>
-
-    <footer>
+    <div class="footer-content">
       <label for="lbl__footer">© 2021  | All Rights Reserved. Allan Daile Vida</label>
-    </footer>
+    </div>
+    
 
   </div>
 </template>
