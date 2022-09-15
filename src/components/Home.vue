@@ -9,10 +9,10 @@
         </li>
         <li class="navbar-a">
           About
-          </li>
+        </li>
         <li class="navbar-a">
           Project
-          </li>
+        </li>
         <li class="navbar-a">
           Reach me
         </li>
@@ -25,7 +25,7 @@
           </router-link>
       </ul> -->
     </div>
-
+<!-- 
     <div  class="details details--location">
       <h2 class="details__h2">Hi, I'm Daile</h2>
       <h1 class="details__h1">Web Developer</h1>
@@ -33,7 +33,7 @@
 
     <div class="button-contact">
       <a href="">Let's do this</a>
-    </div>
+    </div> -->
 
   </div>
 </template>
