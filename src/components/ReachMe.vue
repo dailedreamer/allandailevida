@@ -35,9 +35,9 @@
       </div>
       
     </div>
-    <div class="footer-content">
+    <!-- <div class="footer-content">
       <label for="lbl__footer">© 2021  | All Rights Reserved. Allan Daile Vida</label>
-    </div>
+    </div> -->
     
 
   </div>

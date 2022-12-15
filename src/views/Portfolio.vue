@@ -4,6 +4,7 @@
     <About />
     <Project />
     <ReachMe />
+    <Footer />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Project from "../components/Project";
 import ReachMe from "../components/ReachMe";
+import Footer from "../components/Footer";
 export default {
   name: "Portfolio",
   components: {
@@ -20,6 +22,7 @@ export default {
     About,
     Project,
     ReachMe,
+    Footer
   },
 };
 
