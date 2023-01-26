@@ -11,12 +11,19 @@
         <p class="main-content">Hello everyone, feel free to reach me out if you have any questions about Development. You can also send messages about how you feel on my designs and that would help me a lot on improving them.</p>
         <p class="sub-content">Follow my social journey and stay connected</p>
 
-        <div class="social-media">
-          <img class="img-social-media-person" src="../assets/PersonalDetails/PersonSocialMedia.png" alt="LinkedIn">
-         </div>
-          <a href=""><img class="img-social-media LinkedIn" src="../assets/PersonalDetails/LinkedIn.png" alt="LinkedIn"></a>
-          <a href=""><img class="img-social-media" src="../assets/PersonalDetails/GitHub.png" alt="GitHub"></a>
-          <a href=""><img class="img-social-media" src="../assets/PersonalDetails/gmail.png" alt="Gmail"></a>
+          <div class="card-ctr">  
+            <div class="card">
+              <div class="img-ctr">
+                <img class="img-social-media-person" src="../assets/PersonalDetails/PersonSocialMedia.png" alt="LinkedIn"/>
+              </div>
+              <div class="btn-multi">
+                <button><img class="img-social-media gmail" src="../assets/PersonalDetails/gmail.png" alt="Gmail"></button>
+                <button><img class="img-social-media LinkedIn" src="../assets/PersonalDetails/LinkedIn.png" alt="LinkedIn"></button>
+                <button><img class="img-social-media Upwork" src="../assets/PersonalDetails/upwork.png" alt="Upwork"></button>
+                <button><img class="img-social-media Sitebio" src="../assets/PersonalDetails/siteBio.png" alt="SiteBio"></button>
+              </div>
+            </div>
+          </div>
       </div>
 
       <div class="reach-me__mail">
@@ -35,10 +42,7 @@
       </div>
       
     </div>
-    <!-- <div class="footer-content">
-      <label for="lbl__footer">© 2021  | All Rights Reserved. Allan Daile Vida</label>
-    </div> -->
-    
+
 
   </div>
 </template>
